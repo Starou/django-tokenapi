@@ -1,4 +1,8 @@
-# django-tokenapi
+# django-tokenapi2
+
+**Important**: This is a fork from https://github.com/jpulgarin/django-tokenapi
+to provide Django 4.2 compatibility from a PyPi distribution.
+
 
 This is a Django application which allows you to create simple APIs
 that use token-based authentication. You can easily open up existing views
@@ -14,8 +18,8 @@ good [implementations](https://bitbucket.org/jespern/django-piston/wiki/Home).
 
 ## Requirements
 
-* Django 1.9+
-* Python 2.7 or 3+
+* Django 3.2, 4.2
+* Python 3+
 
 ## Installation
 
@@ -30,7 +34,7 @@ regular installation or use [pip][]:
 
     # or ...
 
-    pip install django-tokenapi
+    pip install django-tokenapi2
 
 [virtualenv]: http://pypi.python.org/pypi/virtualenv
 [pip]: http://pip.openplans.org/
