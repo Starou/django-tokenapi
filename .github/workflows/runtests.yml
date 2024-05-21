@@ -31,4 +31,4 @@ jobs:
 
     - name: Test Python-${{ matrix.python-version }} Django-${{ matrix.django-version }}
       run: |
-        cd tests && python tests.py
+        python runtests.py
