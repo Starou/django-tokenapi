@@ -14,7 +14,7 @@ jobs:
       max-parallel: 4
       matrix:
         python-version: [3.8, 3.9]
-        django-version: [3.2.25]
+        django-version: [3.2.25, 4.2.13]
     steps:
     - uses: actions/checkout@v2
     - name: Set up Python ${{ matrix.python-version }}
